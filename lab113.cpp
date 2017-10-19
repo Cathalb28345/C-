@@ -1,0 +1,22 @@
+// lab113.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	double firstNumber, secondNumber, productOfTwoNumbers;
+	cout << "Enter two numbers: ";
+
+	// Stores two floating point numbers in variable firstNumber and secondNumber respectively
+	cin >> firstNumber >> secondNumber;
+
+	// Performs multiplication and stores the result in variable productOfTwoNumbers
+	productOfTwoNumbers = firstNumber * secondNumber;
+
+	cout << "Product = " << productOfTwoNumbers;
+	system("pause");
+	return 0;
+}
